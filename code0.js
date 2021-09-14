@@ -39,8 +39,7 @@ gdjs.speedrunCode.condition0IsTrue_0.val = false;
 {
 gdjs.speedrunCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.speedrunCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
-}}
+}
 
 }
 
@@ -315,6 +314,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewObject5"), gdjs.speedrunCode.GDNewObj
 {for(var i = 0, len = gdjs.speedrunCode.GDNewObject5Objects1.length ;i < len;++i) {
     gdjs.speedrunCode.GDNewObject5Objects1[i].setScale(2.5);
 }
+}{gdjs.evtTools.window.setAdaptGameResolutionAtRuntime(runtimeScene, true);
 }}
 
 }
