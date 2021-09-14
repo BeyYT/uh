@@ -39,7 +39,8 @@ gdjs.speedrunCode.condition0IsTrue_0.val = false;
 {
 gdjs.speedrunCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.speedrunCode.condition0IsTrue_0.val) {
-}
+{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
+}}
 
 }
 
